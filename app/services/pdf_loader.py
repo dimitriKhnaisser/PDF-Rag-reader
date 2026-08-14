@@ -20,3 +20,4 @@ def load_pdf_text(file_path: str) -> str:
     doc.close()
 
     return full_text
+    

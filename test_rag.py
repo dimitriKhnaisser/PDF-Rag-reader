@@ -16,7 +16,8 @@ store = VectorStore(dimension=len(vectors[0]))
 store.add(vectors, chunks)
 
 # 4. Query
-question = "What is Dimitri studying?"
+# question = "What is Dimitri studying?"
+question = "Give me 7 of the top skills Dimitri has?"
 
 query_vector = embed_texts([question])[0]
 

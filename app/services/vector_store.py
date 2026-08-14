@@ -33,3 +33,4 @@ class VectorStore:
 # FAISS does:
 # “Find the closest vectors to a query vector”, whole chunks are returned if close enough
 # “Which chunks are closest in meaning to this question?”
+# it helps filter and keep only the best/closest chunks relative to out query
